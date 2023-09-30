@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+.header {
+  /* background-color: #b8d1fe; */
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* background: #f9f9f9; */
+  /* background-color: rgb(68, 96, 120); */
+  /* width: 100%; */
+  height: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 2rem;
+  /* display: grid; */
+  /* grid: 9.6rem; */
+}
+
+.header img {
+  height: 4rem;
+}
+
+.line {
+  background-color: #000839;
+  height: 0.3rem;
+  width: 3rem;
+  /* -webkit-transform: rotate(90); */
+  transform: rotateZ(90deg);
+  /* display: inline; */
+}
+
+.logo p {
+  font-size: 1.4rem;
+  color: #000839;
+}
+
+::selection {
+  color: #fff;
+  background: #fa4299;
+}
+
+.wrapper {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f9f7ef;
+  
+  }
+
+.wrapper header {
+  font-size: 35px;
+  font-weight: 600;
+  margin-block-end: 20px;
+}
+
+.wrapper .container {
+  margin-top: -20px;
+}
+
+.wrapper .container form {
+  margin: 40px 0;
+  background: #fff;
+  width: 380px;
+  padding: 40px 30px 50px 30px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+form .field {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+form .field .input-area {
+  height: 50px;
+  width: 100%;
+  position: relative;
+}
+
+form input {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  padding: 0 20px;
+  font-size: 18px;
+  background: none;
+  caret-color: #fa4299;
+  border-radius: 5px;
+  border: 1px solid #bfbfbf;
+  border-bottom-width: 2px;
+  transition: all 0.2s ease;
+}
+
+form .field input:focus,
+form .field.valid input {
+  border-color: #fa4299;
+  ;
+}
+
+form input::placeholder {
+  color: #bfbfbf;
+  font-size: 17px;
+}
+
+form .pass-txt {
+  text-align: left;
+  margin-top: -10px;
+}
+
+.wrapper a {
+  color: #fa4299;
+  text-decoration: none;
+}
+
+.wrapper a:hover {
+  text-decoration: underline;
+}
+
+form input[type="submit"] {
+  height: 50px;
+  margin-top: 30px;
+  color: #fff;
+  padding: 0;
+  border: none;
+  background: -webkit-linear-gradient(right, #a445b2, #fa4299, #a445b2, #fa4299);
+  
+  cursor: pointer;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  z-index: 1;
+
+}
+
+form input[type="submit"]:hover {
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.wrapper form p {
+  margin-block-start: 20px;
+}
+
+.wrapper form p a {
+  color: #fa4299;
+  font-size: 18px;
+}
+
+.error{
+  height: 35px;
+  width: 100%;
+  color: white;
+  background-color: #db6c6c;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  display: flex; 
+   align-items: center; 
+    justify-content: center;
+}
+.error2{
+  height: 35px;
+  width: 100%;
+  color: white;
+  background-color: rgb(114, 180, 114);
+  border-radius: 5px;
+  margin-bottom: 20px;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+}
+

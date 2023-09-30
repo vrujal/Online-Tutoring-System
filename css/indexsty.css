@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+:root {
+  --primary-color: #000839;
+  --primary-shades: #00020b;
+  --para-color: #80849c;
+  --helper-color: #1264fa;
+  --box: #ccced7;
+}
+.header {
+  /* background-color: #b8d1fe; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* background-color: rgb(68, 96, 120); */
+  /* width: 100%; */
+  height: 8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 2rem;
+  /* display: grid; */
+  /* grid: 9.6rem; */
+}
+.header img {
+  height: 6rem;
+}
+.line {
+  background-color: #000839;
+  height: 0.3rem;
+  width: 5rem;
+  /* -webkit-transform: rotate(90); */
+  transform: rotateZ(90deg);
+  /* display: inline; */
+}
+.logo p {
+  font-size: 2rem;
+  color: #000839;
+}
+.main-container {
+  height: max-content;
+}
+.sub-container {
+  height: max-content;
+}
+.sub-container1 {
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* margin: 5rem; */
+  /* margin: 0 auto; */
+  /* background-color: aqua; */
+}
+.name {
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000839;
+}
+.portals {
+  height: max-content;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: antiquewhite; */
+  margin: 0 auto;
+}
+.portal1 {
+  height: 40vh;
+  width: 50%;
+  margin: 2rem;
+  /* border: 1px solid black; */
+  background-color: #ccced76c;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s linear;
+}
+.portal1 p,
+.portal1 i,
+.portal1 h1 {
+  margin: 2rem;
+}
+.portal1 a {
+  text-decoration: none;
+  color: #000839;
+}
+.portal1:hover {
+  transform: scale(1.05);
+}
+.portals a {
+  text-decoration: none;
+}
+/* welcome */
+
+.sub-container2 {
+  /* background-color: antiquewhite; */
+  height: 8vh;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid #000839;
+  margin: 0 auto;
+  color: black;
+}
+
+.sub-container3 {
+  /* background-color: antiquewhite; */
+  height: max-content;
+}
+.sub-container3-1 {
+  /* background-color: aliceblue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem;
+}
+.info-photo {
+  /* background-color: #80849c; */
+  height: 50vh;
+  width: 70vh;
+  background: url(../images/joinus.jpeg);
+  /* background: url(./images/joinus.jpeg); */
+}
+.info-details {
+  height: 40vh;
+  width: 70vh;
+  margin: 5rem;
+  /* background-color: aquamarine; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  color: #1a214d;
+}
+.info-details h1,
+.info-details p,
+.info-details button {
+  margin: 2rem;
+}
+.info-details p{
+  font-size: 13px;
+}
+.info-details button {
+  padding: 1.5rem;
+  border-radius: 10rem;
+  background-color: #1264fa;
+  color: white;
+  transition: all 0.3s linear;
+}
+.info-details button:hover {
+  transform: scale(1.05);
+}
+
+.sub-container4 {
+  /* background-color: antiquewhite; */
+  height: max-content;
+}
+.sub-container4-1 {
+  /* background-color: aliceblue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem;
+}
+.in-photo {
+  /* background-color: #80849c; */
+  height: 50vh;
+  width: 70vh;
+  background: url(../images/m1.jpg);
+  /* background: url(./images/joinus.jpeg); */
+}
+.in-details {
+  height: 40vh;
+  width: 70vh;
+  margin: 5rem;
+  /* background-color: aquamarine; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+  color: #1a214d;
+}
+.in-details h1,
+.in-details p,.in-details button{
+  margin: 2rem;
+  
+}
+.in-details p{
+  font-size: 13px;
+}
+.in-details button {
+  padding: 1.5rem;
+  border-radius: 10rem;
+  background-color: #1264fa;
+  color: white;
+  transition: all 0.3s linear;
+}
+.in-details button:hover {
+  transform: scale(1.05);
+}
+/* choose us */
+.chooseUs {
+  height: max-content;
+  background-color: #f9f7ef;
+  margin-top: 4rem;
+}
+.heading,
+.description {
+  height: 8vh;
+  /* background-color: antiquewhite; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+  color: #000839;
+  padding: 2rem;
+}
+.description span {
+  color: rgb(251, 130, 38);
+  font-size: 1.5rem;
+}
+.usDetails {
+  height: max-content;
+  display: flex;
+}
+.detail {
+  height: 40vh;
+  width: 30%;
+  /* background-color: aqua; */
+  /* border: 1px solid black; */
+  margin: 0 auto;
+}
+.detail1,
+.detail2 {
+  /* background-color: #80849c; */
+  height: 20vh;
+  /* border: 1px solid black; */
+  display: flex;
+  color: #333961;
+  /* padding: 2rem; */
+}
+.detailphoto {
+  height: 100%;
+  width: 40%;
+  /* background-color: wheat; */
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.detailDes {
+  width: 60%;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+}
+@media only screen and (max-width: 768px) {
+  .portals {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .sub-container3-1 {
+    flex-direction: column;
+  }
+  .info-photo {
+    width: 60vh;
+  }
+  .info-details {
+    width: 60vh;
+    height: 40vh;
+  }
+  .usDetails {
+    flex-direction: column;
+  }
+  .detail {
+    width: 50%;
+    margin-top: 2rem;
+  }
+}
+footer {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+
+  height: 100px;
+  font-size: 14px;
+
+  padding: 30px;
+  background: #001f3f linear-gradient(180deg, #26415c, #001f3f) repeat-x !important;
+  color: #fff;
+
+}
